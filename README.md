@@ -10,11 +10,25 @@ This research project presents a detailed comparative analysis of Uber and Lyft'
 
 The project is built in Python 3.9.13 and repository organization is as follows:
 
-data/ - Stores all raw and preprocessed data files.
-figures/ - Stores all visualizations; from EDA to model result comparisons
-results/ - Trained models and comparison results
-report/ - Reports on development pipeline, methodology, and model results.
-src/ - This directory contains all the code for: data wrangling, EDA and feature engineering in Project; splitting, preprocessing, and model development, model evaluations, result visualiztion and feature importances in Project_phase2.ipynb.
+*** Project Directory Structure ***
+
+- `data/`
+  - Stores all raw and preprocessed data files.
+
+- `figures/`
+  - Stores all visualizations, from EDA to model result comparisons.
+
+- `results/`
+  - Contains trained models and comparison results.
+
+- `report/`
+  - Reports on development pipeline, methodology, and model results.
+
+- `src/`
+  - Contains all the code:
+    - `Project`: Data wrangling, EDA, and feature engineering.
+    - `Project_phase2.ipynb`: Splitting, preprocessing, and model development; model evaluations; result visualization; and feature importances.
+
 
 ## Environment and Required Packages
 The requirement is stated in the environment.yml file. You can now use this file to create a conda environment with all the necessary packages by running: conda env create -f environment.yml
