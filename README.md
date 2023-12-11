@@ -4,7 +4,7 @@
 
 ## Overview
 
-This research project presents a detailed comparative analysis of Uber and Lyft's pricing models in Boston, using a dataset of 693,071 rideshare instances. The study's motivation stems from understanding these models' dynamics for informed decision-making in urban transportation. Key features analyzed include weather conditions, ride details, and temporal factors, with 'price' as the target variable. Extensive Exploratory Data Analysis (EDA) reveals patterns in ride frequency, geographical distribution, and price variations. The project employs machine learning techniques, including Ridge, Elastic Net, Random Forest, and XGBoost regressions, with XGBoost showing the best performance in terms of R2 and RMSE. Feature importance analysis identifies distance and luxury ride categories as significant predictors. The research suggests future work integrating real-time data and exploring other models like KNN regression for improved accuracy. This comprehensive study aids in understanding the intricate factors influencing ride-sharing prices and assists in selecting cost-effective transportation options.
+This research project presents a detailed comparative analysis of Uber and Lyft's pricing models in Boston, using a dataset of 693,071 rideshare instances. The data can be retrived by this link: https://drive.google.com/drive/folders/1IdICi2pdJDyeRBJnnF9pgjHo01dSqOu5?usp=sharing. The study's motivation stems from understanding these models' dynamics for informed decision-making in urban transportation. Key features analyzed include weather conditions, ride details, and temporal factors, with 'price' as the target variable. Extensive Exploratory Data Analysis (EDA) reveals patterns in ride frequency, geographical distribution, and price variations. The project employs machine learning techniques, including Ridge, Elastic Net, Random Forest, and XGBoost regressions, with XGBoost showing the best performance in terms of R2 and RMSE. Feature importance analysis identifies distance and luxury ride categories as significant predictors. The research suggests future work integrating real-time data and exploring other models like KNN regression for improved accuracy. This comprehensive study aids in understanding the intricate factors influencing ride-sharing prices and assists in selecting cost-effective transportation options.
 
 ## Repo Intro
 
@@ -12,8 +12,7 @@ The project is built in Python 3.9.13 and repository organization is as follows:
 
 *** Project Directory Structure ***
 
-- `data/`
-  - Stores all raw and preprocessed data files.
+data link is included in the readme.md
 
 - `figures/`
   - Stores all visualizations, from EDA to model result comparisons.
